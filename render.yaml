@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: urna-eletronica
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn urna:app --bind 0.0.0.0:$PORT --workers 1 --threads 4
+    envVars:
+      - key: TRUST_PROXY
+        value: "1"
+
+      - key: MODO_TESTE
+        value: "true"
