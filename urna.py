@@ -50,7 +50,7 @@ MODO_TESTE = MODO_TESTE_RAW == "true"
 
 CANDIDATOS_REAIS = {
     "31": {"nome": "André", "partido": "Revolução Integralista Brasileiro"},
-    "67": {"nome": "Marcelinho + Gulin", "partido": "Partido Liberal Games"},
+    "67": {"nome": "Marcelinho + Gulin + Blum", "partido": "Partido Liberal Games"},
     "22": {"nome": "Vitinho", "partido": "Partido Comunista Revolucionário"}
 }
 
