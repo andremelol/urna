@@ -28,8 +28,8 @@ TOKEN_VALIDADE = 600
 # ---------------------------------------------------------------------------
 # JANELA DE VOTAÇÃO (Brasília)
 # ---------------------------------------------------------------------------
-ABRE_DT = datetime(2026, 10, 9, 10, 39, 0, tzinfo=TZ)
-FECHA_DT = datetime(2026, 10, 9, 11, 50, 0, tzinfo=TZ)
+ABRE_DT = datetime(2026, 10, 9, 10, 41, 0, tzinfo=TZ)
+FECHA_DT = datetime(2026, 10, 9, 11, 52, 0, tzinfo=TZ)
 
 MIN_JITTER = 1.0
 MAX_JITTER = 4.0
@@ -50,8 +50,7 @@ MODO_TESTE = MODO_TESTE_RAW == "true"
 
 CANDIDATOS_REAIS = {
     "31": {"nome": "André", "partido": "Revolução Integralista Brasileiro"},
-    "67": {"nome": "Marcelinho + Gulin + Blum", "partido": "Partido Liberal Games"},
-    "22": {"nome": "Vitinho", "partido": "Partido Comunista Revolucionário"}
+    "67": {"nome": "Marcelinho + Gulin + Blum", "partido": "Partido Liberal Games"}
 }
 
 CANDIDATOS_TESTE = {
