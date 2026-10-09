@@ -28,8 +28,8 @@ TOKEN_VALIDADE = 600
 # ---------------------------------------------------------------------------
 # JANELA DE VOTAÇÃO (Brasília)
 # ---------------------------------------------------------------------------
-ABRE_DT = datetime(2026, 10, 9, 10, 41, 0, tzinfo=TZ)
-FECHA_DT = datetime(2026, 10, 9, 11, 52, 0, tzinfo=TZ)
+ABRE_DT = datetime(2026, 10, 9, 10, 50, 0, tzinfo=TZ)
+FECHA_DT = datetime(2026, 10, 9, 11, 00, 0, tzinfo=TZ)
 
 MIN_JITTER = 1.0
 MAX_JITTER = 4.0
